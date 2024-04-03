@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Myntra</title>
+      <link rel="stylesheet" href="./assets/css/style.css" />
+      <link rel="stylesheet" href="./assets/css/cart-page.css" />
+      <link rel="stylesheet" href="./assets/css/responsive.css" />
+   </head>
+   <body>
+      <header class="header-main">
+         <div class="header-left-cart">
+            <img src="assets/images/myntra.png" alt="logo" class="myntra-logo" id="logo">
+         </div>
+         <div  class="header-center-cart">
+            <div id="header-center-cart" class="page-name-item bag-section">
+               <div>
+                  <p class="bag-text sec-name">WISHLIST ITMES</p>
+                  <div class="hr-bottom-line"></div>
+               </div>
+            </div>
+         </div>
+         <div class="header-right-cart">
+            <img src="assets/images/sprite-secure.png" alt="logo" class="secure-ic" id="logo">
+            <p class="pd-wish-list-txt secure-txt">100% Secure</p>
+         </div>
+      </header>
+      <div class="header-cart-stickey"></div>
+     <section id="wishlist-root" class="wishlist-root">
+         
+         <p class="pro-title pro-sub-font" style="margin-left: 12px;">WISHLIST ITMES</p>
+          <div class="mt-24"></div>
+        <div id="wishlist-product" class="similar-container"></div>
+      </section>
+
+      <section>
+         <div class="margin-top-30"></div>
+          <div id="wishlist-empty" class="empty-view">
+            
+               <div style="flex-direction: column; justify-content: center;  align-items: center;">
+                  <div class="img-d-center">
+                       <img src="./assets/images/empty-bag.webp" class="empty-bag-img" />
+                  </div>
+                  <div class="margin-top-30"></div>
+                  <h3  style="text-align: center;">YOUR WISHLIST IS EMPTY</h3>
+                  <div class="margin-top-10"></div>
+                  <p class="pro-sub-title" style="text-align: center; white-space: wrap;">Add items that you like to your wishlist.</p>
+                  <p class="pro-sub-title" style="text-align: center; white-space: wrap;">Review them anytime and easily move them to the bag.</p>
+                  <div class="margin-top-30"></div>
+                  <div style="text-align: center;">
+                     <button id="ctn-shop-btn" class="apply-coupon-btn" style="width: 180px; height: 45px;" >CONTINUE SHOPPING</button>
+                  </div>
+               </div>
+          </div>
+      </section>
+
+       <script src="./assets/js/wishlist.js" defer></script> 
+      
+   </body>
+</html>

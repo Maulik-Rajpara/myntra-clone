@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Myntra</title>
+      <link rel="stylesheet" href="./assets/css/style.css" />
+      <link rel="stylesheet" href="./assets/css/cart-page.css" />
+      <link rel="stylesheet" href="./assets/css/responsive.css" />
+   </head>
+   <body>
+      <header class="header-main">
+         <div class="header-left-cart">
+            <img src="assets/images/myntra.png" alt="logo" class="myntra-logo" id="logo">
+         </div>
+         <div  class="header-center-cart">
+            <div id="header-center-cart" class="page-name-item bag-section">
+               <div>
+                  <p class="bag-text sec-name">BAG</p>
+                  <div class="hr-bottom-line"></div>
+               </div>
+               <div class="hr-dotted"></div>
+               <div class="page-name-item address-section">
+                  <div>
+                     <p class="bag-text sec-name">ADDRESS</p>
+                     <div class="hr-bottom-line"></div>
+                  </div>
+               </div>
+               <div class="hr-dotted"></div>
+               <div class="page-name-item payment-section">
+                  <p class="bag-text sec-name">PAYMENT</p>
+                  <div class="hr-bottom-line"></div>
+               </div>
+            </div>
+         </div>
+         <div class="header-right-cart">
+            <img src="assets/images/sprite-secure.png" alt="logo" class="secure-ic" id="logo">
+            <p class="pd-wish-list-txt secure-txt">100% Secure</p>
+         </div>
+      </header>
+      <div class="header-cart-stickey"></div>
+      <section>
+         <div class="cart-main-content">
+            <div id="c-left" class="cart-left-section">
+               <div class="address-box">
+                  <div>
+                     <p class="address-to-text">Delivery to: Maulik, 395008</p>
+                     <p class="address-line">No 348, Gate no 1, Surbhi - The Royal Township, Pasodra Patiya, Navagam, Kamrej-Surat</p>
+                  </div>
+                  <button class="change-add-btn">Change Address</button>
+               </div>
+               <div class="mt-top-20"></div>
+               <div class="offer-box">
+                  <div class="d-flex-c">
+                     <img src="assets/images/offer.png" alt="logo" class="h-icons-big" id="logo">
+                     <p class="address-to-text pro-name" style="padding-left: 4px;">Availabe Offers</p>
+                  </div>
+                  <li class="address-line" style="padding-left: 4px;">7.5% Discount on Myntra Kotak Credit Card.</li>
+                  <li class="address-line"  style="padding-top: 1px; padding-left: 4px;">EMI starting from Rs.50/month.</li>
+               </div>
+               <div class="selected-item-label pad-top-20">
+                  <div class="d-flex-c">
+                     <input class="custom-checkbox" type="checkbox" id="bfS" data-name="brands">
+                     <p id="selected-cart-items" class="pro-title pt-left-10">1/1 ITEMS SELECTED</p>
+                  </div>
+                  <h4 id="all-remove" class="grey-bag-grey-text">REMOVE</h4>
+               </div>
+               <div id="cart-content" class="margin-top-30">
+                  <div id="cart-box">
+                  </div>
+               </div>
+               <div class="offer-box margin-top-30">
+                  <div id="addToWish" class="d-flex-c" style="justify-content: space-between;">
+                     <div class="d-flex-c" style="align-items: center;">
+                        <img src="assets/images/ic-wishlist.png" alt="logo" class="h-icons-big"/>
+                        <p class="pro-title" style="padding-left: 5px;">Add More From Wishlist</p>
+                     </div>
+                     <div>
+                        <img src="assets/images/arrow-right.png" alt="logo" class="h-icons-big"/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- ADDRESS LEFT SECTION -->
+            <div id="address-left" class="cart-left-section">
+               <div style="padding-top: 16px;">
+                  <h4 class="">Select Delivery Address</h4>
+                  <div class="mt-top-20"></div>
+                  <p class="p-footer-text">DEFAULT ADDRESS</p>
+                  <div class="mt-top-20"></div>
+                  <div class="offer-box">
+                     <div class="d-flex-c">
+                        <input type="radio" checked id="address1" name="address" value="address1" class="custom-radio">
+                        <p class="pro-title" style="margin: 0px; padding: 0px;;">Maulik Rajpara</p>
+                     </div>
+                     <div class="mt-top-10"></div>
+                     <p class="normal-txt">No: 247 Ashok Vatika Society, sagar to kargilchowk road, 
+                        punagam, varacha main road,
+                        SURAT, GUJARAT, 395006
+                        India
+                     </p>
+                     <div class="mt-top-10"></div>
+                     <p class="normal-txt">Mobile No: <b>+919409518027</b></p>
+                     <div class="mt-top-20"></div>
+                     <p class="address-to-text">Pay On Delivery Availabe</p>
+                  </div>
+                  <div class="mt-top-20"></div>
+                  <p class="p-footer-text">OTHER ADDRESS</p>
+                  <div class="mt-top-20"></div>
+                  <div class="offer-box">
+                     <div class="d-flex-c">
+                        <input type="radio"  id="address3" name="address" value="address3" class="custom-radio">
+                        <p class="pro-title" style="margin: 0px; padding: 0px;;">Mahaveer Handloom</p>
+                     </div>
+                     <div class="mt-top-10"></div>
+                     <p class="normal-txt">#170, 2nd floor, Momina Manzil, 3rd cross road,
+                        Gandhipuram, Whitefield. Karnataka-560066 
+                     </p>
+                     <div class="mt-top-10"></div>
+                     <p class="normal-txt">Mobile No: <b>+919409518027</b></p>
+                     <div class="mt-top-20"></div>
+                     <p class="address-to-text">Pay On Delivery Availabe</p>
+                  </div>
+                  <div class="offer-box" style="margin-top: 10px;">
+                     <div class="d-flex-c">
+                        <input type="radio"  id="address2" name="address" value="address2" class="custom-radio">
+                        <p class="pro-title" style="margin: 0px; padding: 0px;;">Maulik Rajpara</p>
+                     </div>
+                     <div class="mt-top-10"></div>
+                     <p class="normal-txt">#170, 2nd floor, Momina Manzil, 3rd cross road,
+                        Gandhipuram, Whitefield. Karnataka-560066 
+                     </p>
+                     <div class="mt-top-10"></div>
+                     <p class="normal-txt">Mobile No: <b>+919409518027</b></p>
+                     <div class="mt-top-20"></div>
+                     <p class="address-to-text">Pay On Delivery Availabe</p>
+                  </div>
+               </div>
+            </div>
+            <!-- ADDRESS LEFT SECTION -->
+            <!-- PAYMENT LEFT SECTION -->
+            <div id="payment-left" class="cart-left-section">
+               <div style="padding-top: 16px;">
+                  <div class="offer-box">
+                     <div class="d-flex-c">
+                        <img src="assets/images/offer.png" alt="logo" class="h-icons-big" id="logo">
+                        <p class="address-to-text pro-name" style="padding-left: 4px;">Availabe Offers</p>
+                     </div>
+                     <li class="address-line" style="padding-left: 4px;">10% Instant Discount on IDFC First Bank Credit and Debit Cards on a min spend on Rs 5000. TCA</li>
+                  </div>
+                  <div class="mt-top-20"></div>
+                  <h4 class="">Choose Payment Mode</h4>
+                  <div class="mt-top-20"></div>
+                  <div class="offer-box">
+                     <label for="pay">
+                        <div class="d-flex-c">
+                           <input type="radio" id="pay" name="pay" value="COD" class="custom-radio">
+                           <p class="pro-title" style="margin: 0; padding: 0;">Cash On Delivery</p>
+                        </div>
+                     </label>
+                  </div>
+                  <div class="offer-box" style="margin-top: 10px;">
+                     <label for="pay2">
+                        <div class="d-flex-c">
+                           <input type="radio" checked id="pay2" name="pay" value="Gpay" class="custom-radio">
+                           <p class="pro-title" style="margin: 0; padding: 0;">Google Pay / Phone Pay / BHIM UPI</p>
+                        </div>
+                     </label>
+                  </div>
+                  <div class="offer-box" style="margin-top: 10px;">
+                     <label for="pay3">
+                        <div class="d-flex-c">
+                           <input type="radio" id="pay3" name="pay" value="cd" class="custom-radio">
+                           <p class="pro-title" style="margin: 0; padding: 0;">Credit/Debit Card</p>
+                        </div>
+                     </label>
+                  </div>
+                  <div class="offer-box" style="margin-top: 10px;">
+                     <label for="pay4">
+                        <div class="d-flex-c">
+                           <input type="radio" id="pay4" name="pay" value="wallet" class="custom-radio">
+                           <p class="pro-title" style="margin: 0; padding: 0;">Myntra Wallets</p>
+                        </div>
+                     </label>
+                  </div>
+                  <div class="offer-box" style="margin-top: 10px;">
+                     <label for="pay5">
+                        <div class="d-flex-c">
+                           <input type="radio" id="pay5" name="pay" value="net" class="custom-radio">
+                           <p class="pro-title" style="margin: 0; padding: 0;">Net Banking</p>
+                        </div>
+                     </label>
+                  </div>
+                  <div class="offer-box" style="margin-top: 10px;">
+                     <label for="pay6">
+                        <div class="d-flex-c">
+                           <input type="radio" id="pay6" name="pay" value="emi" class="custom-radio">
+                           <p class="pro-title" style="margin: 0; padding: 0;">EMI</p>
+                        </div>
+                     </label>
+                  </div>
+               </div>
+            </div>
+            <!-- PAYMENT LEFT SECTION -->
+            <div id="r-left" class="cart-right-section">
+               <div class="root-cart-right" >
+                  <p class="p-footer-text">COUPONS</p>
+                  <div class="d-flex-c" style="justify-content: space-between; align-items: center;" >
+                     <div class="d-flex-c">
+                        <img src="assets/images/tag.png" alt="logo" class="h-icons-big" id="logo">
+                        <p class="address-to-text pro-name"
+                           style="padding-left: 8px;">Apply Coupons</p>
+                     </div>
+                     <button class="apply-coupon-btn">APPLY</button>
+                  </div>
+                  <div class="margin-top-30"></div>
+                  <p class="p-footer-text">GIFTING & PERSONALISATION</p>
+                  <div class="margin-top-10"></div>
+                  <div class="address-box" style="padding: 0%; padding-left: 20px;">
+                     <div class="d-flex-c">
+                        <img src="assets/images/gift-big.webp" alt="logo" class="tag">
+                        <div style="padding: 0%; padding-left: 8px; padding-top: 5px; width: 90%;" >
+                           <p class="p-footer-text">Buying for a loved one?</p>
+                           <p class="pro-sub-title">gift wrap and personalized message on card?</p>
+                           <p class="pro-sub-title">Only for 25</p>
+                           <p class="p-footer-text btn-pink" style="padding: 0%; padding-top: 10px; ">
+                              ADD GIFT WRAP
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="margin-top-30"></div>
+                  <p id="price-detail-label" class="p-footer-text">PRICE DETAILS</p>
+                  <div class="margin-top-10"></div>
+                  <div>
+                     <div class="d-flex-c pt-4" style="justify-content: space-between;">
+                        <p class="address-to-text">Total MRP</p>
+                        <p id="total-mrp" class="p-footer-text">₹12548</p>
+                     </div>
+                     <div class="d-flex-c pt-4" style="justify-content: space-between;">
+                        <p class="address-to-text">Discount on MRP</p>
+                        <p  id="total-discount"class="p-footer-text" style="color: #20BD99;">₹2548</p>
+                     </div>
+                     <div class="d-flex-c pt-4" style="justify-content: space-between;">
+                        <p class="address-to-text">Coupon Discount</p>
+                        <p class="p-footer-text btn-pink">Apply Coupon</p>
+                     </div>
+                     <div class="d-flex-c pt-4" style="justify-content: space-between;">
+                        <p class="address-to-text">Platform Fee</p>
+                        <p class="p-footer-text">₹20</p>
+                     </div>
+                     <div class="d-flex-c pt-4" style="justify-content: space-between;">
+                        <p class="address-to-text">Shipping Fee</p>
+                        <p class="p-footer-text" style="color: #20BD99;">FREE</p>
+                     </div>
+                     <div class="margin-top-10"></div>
+                     <div class="hr-line"></div>
+                     <div class="margin-top-10"></div>
+                     <div class="d-flex-c" style="justify-content: space-between;">
+                        <p class="pro-title">Total Amount</p>
+                        <p id="final-total" class="pro-title">₹22020</p>
+                     </div>
+                     <div class="margin-top-10"></div>
+                     <div class="pd-add-bag-btn" id="place-order" >
+                        <p class="pd-wish-list-txt">PLACE ORDER</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="empty-view" class="empty-view">
+               <div style="flex-direction: column; justify-content: center; align-items: center;">
+                  <img src="./assets/images/empty-bag.webp" class="empty-bag-img" style="padding-left: 60px;">
+                  <div class="margin-top-30"></div>
+                  <h3  style="text-align: center;">Hey, it feels to light!</h3>
+                  <div class="margin-top-10"></div>
+                  <p class="pro-sub-title" style="text-align: center; white-space: wrap;">There is nothing in your bag, Let's add some items</p>
+                  <div class="margin-top-30"></div>
+                  <div style="text-align: center;">
+                     <button id="empty-bag-btn" class="apply-coupon-btn" style="width: 180px; height: 45px;" >ADD ITEMS TO BAG</button>
+                  </div>
+               </div>
+            </div>
+            <!-- CONGRAULATION  -->
+            <div id="order-success-view" class="empty-view">
+              <img src="./assets/images/green-check.png" class="empty-bag-img" />
+                  <div class="margin-top-30"></div>
+                  <h3  style="text-align: center;">CONGRATULATIONS!</h3>
+                  <div class="margin-top-10"></div>
+                  <p class="pro-sub-title" style="text-align: center; white-space: wrap;"  style="text-align: center;">
+                     Your order has been placed successfully.<br>Let's continue shopping.</p>
+                  <div class="margin-top-30"></div>
+                  <div style="text-align: center;">
+                     <button id="go-home-btn" class="apply-coupon-btn" 
+                     style="width: 180px; height: 45px;" >GO TO HOME</button>
+                  </div>
+            </div>
+         </div>
+      </section>
+      <script src="./assets/js/data/cart-data.js" defer></script> 
+      <!-- <script src="./assets/js/product-list.js" defer></script>
+         <script src="./assets/js/data/product-data.js" defer></script> -->
+   </body>
+</html>

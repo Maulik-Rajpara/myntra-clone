@@ -1,0 +1,489 @@
+/* ----------------------MEDIA QUERY ---------------------------------------*/
+
+/* Extra small devices (phones, 400px and down) */
+@media only screen and (max-width: 576px) {
+ .header-left-section{
+    width: 100%;
+  }
+  .header-right-section{
+    width: 100%;
+    padding-top: 6px;
+    justify-content: space-between;
+  }
+  .header-main{
+    padding: 12px 12px;
+  }
+  .footer-main{
+    padding: 20px 12px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .footer-left-section{
+    width: 100%;
+  }
+  .footer-right-section{
+    width: 100%;
+    padding-top: 10px;
+    justify-content: flex-start;
+  }
+  .header-main-stickey{
+    height: 116px;
+    width: 100%;
+  }
+  .cat-section{
+    padding: 12px 12px;
+  }
+  .ads-banner{
+    padding: 12px 12px;
+  }
+  .h-menu-bar{
+    margin-left: 8px;
+  }
+  .h-menu-bar li{
+     font-size: 12px;
+     padding-left: 8px;
+  }
+  .h-text-icons-parent{
+     margin-left: 8px;
+  }
+  .h-text-icons{
+    margin-left: 8px;
+  }
+  .myntra-logo{
+    height: 40px;
+    width: auto;
+    margin: 0px;
+  }
+  .h-search-bar{
+    padding: 12px 10px;
+  }
+  .h-search-bar input[type=text]{
+    width: 160px;
+  }
+  .p-footer-text-rt{
+    font-size: 12px;
+  }
+  .p-footer-text-ic{
+    width: auto;
+    height: 35px;
+  }
+  .dropdown-content {
+    top:auto;
+    width: 90vw;
+    left: 5vw;
+    text-align: center;
+  }
+  
+  .product-item{
+    width: 44.5%;
+    height: auto;
+  }
+  
+  .similar-root{
+    padding: 10px 6px;
+  }
+  .similar-product-item{
+   width: 45%;
+    height: auto;
+  }
+  .fl-left-sub {
+    display: none;
+  }
+  
+  #sp-mf{
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    width: auto;
+    padding: 6px 10px;
+    height: auto;
+  }
+  .filter-lbl{
+    font-size: 14px;
+  }
+  .filter-clear{
+     font-size: 12px;
+     padding-left:1px;
+     justify-content: start !important;
+  }
+  .pt-lt-space{
+    padding-left:10px;
+    padding-right:10px;
+  }
+   .product-details-root{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    flex-direction: column;
+  }
+  .pro-detail-left{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pro-d-img{
+    width: 46%;
+  }
+  .pro-detail-right{
+    width: 100%;
+  }
+  .pro-detail-root{
+    width: 100%;
+  }
+  .pro-name{
+    font-size: 20px;
+  }
+  .pro-sub-title{
+    font-size: 14px;
+    word-wrap: break-word;
+     white-space: nowrap; 
+    width: auto;
+  }
+  .pd-size-item{
+    width: 48px;
+    height: 48px;
+    font-size: 14px;
+  }
+  .pd-btns{
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .pd-add-bag-btn{
+    margin-bottom: 8px;
+  }
+  .normal-txt{
+    word-wrap: break-word;
+     width: 100%;
+  }
+  .secure-ic{
+    width: 20px;
+    height: auto;
+  }
+  .secure-txt{
+    font-size: 9px;
+  }
+  .bag-text{
+    font-size: 10px;
+  }
+  .hr-dotted{
+    width: 30px;
+  }
+  /* cart items */
+  .cart-main-content{
+    flex-direction: column;
+  }
+  .cart-main-content{
+     padding: 10px 10px;
+  }
+  .cart-left-section{
+    width: 100%;
+  }
+  .cart-right-section{
+    width: 100%;
+    padding-top: 20px;
+  }
+  .root-cart-right{
+    padding-left: 8px;
+  }
+  #cart-content{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .empty-bag-img{
+     width: 180px;
+     height: auto;
+     align-self: center;
+  }
+ 
+}
+ 
+/*TAB */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .header-left-section{
+    width: 50%;
+  }
+  .header-right-section{
+    width: 50%;
+   justify-content: space-between;
+  }
+ 
+  .header-main{
+    padding: 12px 20px;
+  }
+  .footer-main{
+    padding: 30px 20px;
+    flex-wrap: wrap;
+  }
+  .header-main-stickey{
+    height: 69px;
+    width: 100%;
+  }
+  .cat-section{
+    padding: 12px 20px;
+  }
+  .ads-banner{
+    padding: 12px 20px;
+  }
+  .h-menu-bar{
+    margin-left: 8px;
+  }
+  .h-menu-bar li{
+     font-size: 12px;
+     padding-left: 8px;
+  }
+  .h-text-icons-parent{
+     margin-left: 8px;
+  }
+  .h-text-icons{
+    margin-left: 8px;
+  }
+  .myntra-logo{
+    height: 40px;
+    width: auto;
+    margin: 0px;
+  }
+   .h-search-bar input[type=text]{
+    width: 160px;
+ }
+ .p-footer-text-ic{
+    width: auto;
+    height: 35px;
+  }
+ 
+  .product-item{
+    width: 29.5%;
+    height: auto;
+  }
+
+  /* .product-details-root{
+    width: auto;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .pro-detail-left{
+    width: 90%;
+  }
+  .pro-detail-right{
+    width: 90%;
+  } */
+
+  .similar-root{
+    padding: 10px 6px;
+  }
+  .similar-product-item{
+    width: 30%;
+    height: auto;
+  }
+   .filter-clear{
+     padding-left: 10px;
+  }
+   .pd-btns{
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .pd-add-bag-btn{
+    margin-bottom: 8px;
+  }
+  .cart-right-section{
+    width: 45%;
+    padding-top: 20px;
+  }
+  .root-cart-right{
+    padding-left: 8px;
+  }
+   .cart-main-content{
+     padding: 20px 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .header-left-section{
+    width: 50%;
+  }
+  .header-right-section{
+    width: 50%;
+    justify-content: space-between;
+  }
+  .header-main-stickey{
+    height: 69px;
+    width: 100%;
+  }
+  .header-main{
+    padding: 12px 30px;
+  }
+   .footer-main{
+    padding: 30px 20px;
+    flex-wrap: wrap;
+  }
+  .cat-section{
+    padding: 12px 30px;
+  }
+  .ads-banner{
+     padding: 12px 30px;
+  }
+  .h-menu-bar{
+    margin-left: 10px;
+  }
+  .h-menu-bar li{
+     font-size: 12px;
+     padding-left: 8px;
+  }
+  .h-text-icons-parent{
+     margin-left: 8px;
+  }
+  .h-text-icons{
+    margin-left: 8px;
+  }
+  .myntra-logo{
+    height: 40px;
+    width: auto;
+    margin: 0px;
+  }
+  .h-search-bar input[type=text]{
+    width: 170px;
+  }
+  .p-footer-text-ic{
+    width: auto;
+    height: 36px;
+  }
+  .product-root-section{
+    padding: 0px 0px;
+  }
+  .product-item{
+    width: 29.5%;
+    height: auto;
+  }
+  /* .product-details-root{
+    width: 90%;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  } */
+  /* .pro-detail-left{
+    width: 90%;
+  }
+  .pro-detail-right{
+    width: 90%;
+  } */
+  .similar-root{
+    padding: 10px 6px;
+  }
+  .similar-product-item{
+    width: 30%;
+    height: auto;
+  }
+   .filter-clear{
+     padding-left: 10px;
+  }
+  .pd-btns{
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .pd-add-bag-btn{
+    margin-bottom: 8px;
+  }
+  .cart-main-content{
+     padding: 15px 10px;
+  }
+}
+
+/* IPAD PRO SPECIAL CASE */
+@media only screen and (min-width: 1024px) and (max-width: 1024px)  {
+  .product-item{
+    width: 30.2% !important;
+    height: auto;
+  }
+  .similar-product-item{
+    width: 30.5% !important;
+    height: auto;
+  }
+ .pd-btns{
+     display: flex;
+    flex-wrap: wrap;
+  }
+  .pd-add-bag-btn{
+    min-width: 200px;
+  }
+  .pd-wish-list-btn{
+    min-width: 200px;
+  }
+  .cart-main-content{
+     padding: 15px 10px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .header-main{
+    padding: 12px 25px;
+  }
+  .footer-main{
+    padding: 12px 25px;
+  }
+  .cat-section{
+     padding: 12px 25px;
+  }
+  .ads-banner{
+     padding: 12px 25px;
+  }
+  .h-text-icons-parent{
+     margin-left: 12px;
+  }
+  .h-text-icons{
+    margin-left: 10px;
+  }
+  .header-right-section{
+    padding-left: 20px;
+    justify-content: flex-end;
+  }
+ .h-search-bar input[type=text]{
+    width: 180px;
+ }
+ .p-footer-text-ic{
+    width: auto;
+    height: 36px;
+  }
+  /* .product-details-root{
+    width: 90%;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pro-detail-left{
+    width: 55%;
+  }
+  .pro-detail-right{
+     width: 45%;
+  } */
+  .product-item{
+    width: 28%;
+    height: auto;
+  }
+  .similar-product-item{
+    width: 28.5%;
+    height: auto;
+  }
+
+}
+
+@media only screen and (min-width: 1201px) {
+ .h-search-bar input[type=text]{
+    width: 300px;
+ }
+}
+
+@media only screen and (min-width: 1300px) {
+ .h-search-bar input[type=text]{
+    width: 350px;
+ }
+}
+
+
+
+
