@@ -62,6 +62,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("wishlist-menu").addEventListener("click", function (e) {
             window.location.pathname = "/wishlist.html";
         });
-    }, 100);
+    }, 400);
 
 });
