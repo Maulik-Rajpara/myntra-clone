@@ -588,39 +588,39 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.pathname = "/product-list.html";
     };
 
-    fetch('/header.html')
-        .then(response => response.text())
-        .then(html => {
-            // var existingHeaderContainer = document.getElementById("header-container");
-            // existingHeaderContainer.innerHTML = html;
-            // if (!existingHeaderContainer) {
-            //     var headerContainer = document.createElement("div");
-            //     headerContainer.id = "header-container";
-            //     headerContainer.innerHTML = html;
-            //     // Append the header container to the appropriate location in your document
-            //     // For example:
-            //     // document.body.prepend(headerContainer); // prepend to the beginning of the body
-            //     // document.body.appendChild(headerContainer); // append to the end of the body
-            // }
-            generateMenu();
-            var closeIcon1 = document.getElementsByClassName('menu-sub-cat');
-            for (let i = 0; i < closeIcon1.length; i++) {
-                closeIcon1[i].addEventListener('click', closeDisplayContent);
-            }
-            function closeDisplayContent() {
-                window.location.pathname = "/product-list.html";
+    // fetch('/header.html')
+    //     .then(response => response.text())
+    //     .then(html => {
+    //         // var existingHeaderContainer = document.getElementById("header-container");
+    //         // existingHeaderContainer.innerHTML = html;
+    //         // if (!existingHeaderContainer) {
+    //         //     var headerContainer = document.createElement("div");
+    //         //     headerContainer.id = "header-container";
+    //         //     headerContainer.innerHTML = html;
+    //         //     // Append the header container to the appropriate location in your document
+    //         //     // For example:
+    //         //     // document.body.prepend(headerContainer); // prepend to the beginning of the body
+    //         //     // document.body.appendChild(headerContainer); // append to the end of the body
+    //         // }
+    //         generateMenu();
+    //         var closeIcon1 = document.getElementsByClassName('menu-sub-cat');
+    //         for (let i = 0; i < closeIcon1.length; i++) {
+    //             closeIcon1[i].addEventListener('click', closeDisplayContent);
+    //         }
+    //         function closeDisplayContent() {
+    //             window.location.pathname = "/product-list.html";
 
-            };
-        });
+    //         };
+    //     });
 
-    fetch('/footer.html')
-        .then(response => response.text())
-        .then(html => {
-            //  document.getElementsByClassName('footer-container').appendChild(html);
-            // var existingHeaderContainer = document.getElementById("footer-container");
-            // existingHeaderContainer.innerHTML = html;
-        }).catch(e => {
-            console.log("Error:", e);
-        });
+    // fetch('/footer.html')
+    //     .then(response => response.text())
+    //     .then(html => {
+    //         //  document.getElementsByClassName('footer-container').appendChild(html);
+    //         // var existingHeaderContainer = document.getElementById("footer-container");
+    //         // existingHeaderContainer.innerHTML = html;
+    //     }).catch(e => {
+    //         console.log("Error:", e);
+    //     });
 });
 

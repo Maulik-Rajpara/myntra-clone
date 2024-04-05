@@ -613,11 +613,11 @@ function proDetailData() {
 
             /// Added IMAGES
             var imageUrls = [
-                './assets/images/products/tshirts/black_collection/black1.png',
-                './assets/images/products/tshirts/black_collection/black02.png',
-                './assets/images/products/tshirts/black_collection/black03.png',
-                './assets/images/products/tshirts/black_collection/black04.png',
-                './assets/images/products/tshirts/black_collection/black05.png'
+                'assets/images/products/tshirts/black_collection/black1.png',
+                'assets/images/products/tshirts/black_collection/black02.png',
+                'assets/images/products/tshirts/black_collection/black03.png',
+                'assets/images/products/tshirts/black_collection/black04.png',
+                'assets/images/products/tshirts/black_collection/black05.png'
             ];
             // Get the pro-detail-left element
 
