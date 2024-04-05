@@ -1,3 +1,33 @@
 # myntra-clone
 Myntra clone made using HTML5, CSS3, JAVASCRIPT
 Using media query for responsive instead of boostrap
+
+![Screenshot 2024-04-05 202758](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/1555291c-5b96-4edc-9d35-5980902b8e94)
+![Screenshot 2024-04-05 202838](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/a9a55c89-4e9b-4e51-bc68-24b895fec1de)
+![Screenshot 2024-04-05 202915](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/d4c3cd6d-71cc-40f6-8544-04d67e859758)
+![Screenshot 2024-04-05 202934](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/0df39044-9115-432e-a7d8-d22115a430fe)
+![Screenshot 2024-04-05 202950](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/21e2ff94-89f5-4d6e-9e01-8f1fee56eba5)
+![Screenshot 2024-04-05 203008](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/b18b537f-a596-47bf-b797-4205ef7c0e3d)
+![Screenshot 2024-04-05 203022](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/8a9a7f6b-dee3-4b48-877d-37b8eb347b2c)
+![Screenshot 2024-04-05 203037](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/f211a21e-1252-41e8-99c9-6509db10ae10)
+![Screenshot 2024-04-05 203052](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/72e1284f-7033-4891-81cf-bc534542803e)
+![Screenshot 2024-04-05 203104](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/a9596fb4-407f-4b06-8912-2daa09d1ff2b)
+![Screenshot 2024-04-05 203123](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/f6c6cdab-4818-48ab-b313-32dac89bd48a)
+![Screenshot 2024-04-05 203148](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/d7787179-1b68-4e4d-b3bb-69cb81a5bbf2)
+![Screenshot 2024-04-05 203209](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/17ba6256-1717-476a-bc75-6fec186b6658)
+![Screenshot 2024-04-05 203233](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/2af02a5d-9911-448f-92d7-3ac247332481)
+![Screenshot 2024-04-05 203247](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/c7a44384-a750-4166-b42d-979c57006fda)
+![Screenshot 2024-04-05 203302](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/07194620-9173-4d27-8066-51a9e1385773)
+![Screenshot 2024-04-05 203314](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/d001407d-6d45-48b4-be6b-e6381fac6085)
+![Screenshot 2024-04-05 203325](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/5c2cb376-877b-459c-b675-c098431c0121)
+![Screenshot 2024-04-05 203339](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/43d1bc3b-01ec-4266-b0c4-0dc8419877ff)
+![Screenshot 2024-04-05 203356](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/d654efbc-dc2e-40c5-ab0e-eb96da7e5827)
+![Screenshot 2024-04-05 203405](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/60d615e9-6e5a-45a0-9a65-c626dfed8b4f)
+![Screenshot 2024-04-05 203412](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/60a0b735-1a43-4e88-ba01-3b47dc8e8125)
+![Screenshot 2024-04-05 203423](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/c04e6368-fbf2-4237-8aac-fa9bd7ee9b3b)
+![Screenshot 2024-04-05 203434](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/6ee646f6-1d34-4bbb-b7de-2d6864572750)
+![Screenshot 2024-04-05 203545](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/348822f0-b5ea-4dec-82a7-4a21b9ad69d8)
+![Screenshot 2024-04-05 203637](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/bcbc3769-55d4-44e2-9bdd-1b15cf78961f)
+![Screenshot 2024-04-05 203704](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/741b2c7f-e514-4c86-b6dd-11435578fd0f)
+![Screenshot 2024-04-05 202735](https://github.com/Maulik-Rajpara/myntra-clone/assets/79359111/c7801c88-e527-45ba-a439-71ede00595f1)
+
